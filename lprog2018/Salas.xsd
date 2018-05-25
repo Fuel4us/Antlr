@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://xml.dei.isep.ipp.pt/GestaoSalas"
+           elementFormDefault="qualified">
+
+    <xs:element name="Departamento">
+        <xs:complexType> name="Sala">
+    </xs:element>
+
+</xs:schema>
+
