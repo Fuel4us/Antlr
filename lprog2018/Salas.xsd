@@ -1,12 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://xml.dei.isep.ipp.pt/GestaoSalas"
+<xs:schema xmlns="http://www.dei.isep.ipp.pt/lprog/gestaosalas"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.dei.isep.ipp.pt/lprog/gestaosalas"
            elementFormDefault="qualified">
-
+    
     <xs:element name="Departamento">
-        <xs:complexType> name="Sala">
+        <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Sala" type="TSala"/>
+                </xs:sequence>
+        </xs:complexType>
     </xs:element>
+
+    <xs:complexType name="TSala">
+        <xs:sequence>
+            <xs:element name="Local" type="TLocal"/>
+            <xs:element name="Mobilia" type="TMobilia"/>
+            <xs:element name="Hardware" type="THardware"/>
+            <xs:element name="EqEletrico" type="TEqEletrico"/>
+            <xs:element name="CalLimpeza" type="TCalLimpeza"/>
+            <xs:element name="CalManutencao" type="TCalManutencao"/>
+            <xs:element name="Avarias" type="TAvarias"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TLocal">
+        <xs:sequence>
+            <xs:element name="Local" type="xs:int"/>
+            <xs:element name="Area" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TMobilia">
+        <xs:sequence>
+            <xs:element name="Mobilia" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="THardware">
+        <xs:sequence>
+            <xs:element name="Nome" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TEqEletrico">
+        <xs:sequence>
+            <xs:element name="Nome" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TCalLimpeza">
+        <xs:sequence>
+            <xs:element name="Data" type="TData"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TCalManutencao">
+        <xs:sequence>
+            <xs:element name="Data" type="TData"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TData">
+        <xs:sequence>
+            <xs:element name="Ano" type="xs:int"/>
+            <xs:element name="Mes" type="xs:int"/>
+            <xs:element name="Dia" type="xs:int"/>
+            <xs:element name="Hora" type="xs:int"/>
+            <xs:element name="Minuto" type="xs:int"/>
+        </xs:sequence>
+
+    </xs:complexType>
+
+    <xs:complexType name="TAvarias">
+        <xs:sequence>
+            <xs:element name="Avaria" type="TAvaria"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TAvaria">
+        <xs:sequence>
+            <xs:element name="Equipamento" type="xs:string"/>
+            <xs:element name="Descricao" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
 
 </xs:schema>
 
