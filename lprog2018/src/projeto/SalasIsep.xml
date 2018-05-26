@@ -1,3 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
-<Root></Root>
+<Departamento xmlns="http://www.dei.isep.ipp.pt/lprog/gestaosalas">
+    <Sala>
+        <Local>
+            <Local>101</Local>
+            <Area>50</Area>
+        </Local>
+        <Mobilia>
+            <Mobilia>Mesa</Mobilia>
+            <Quantidade>10</Quantidade>
+        </Mobilia>
+        <Hardware>
+            <Nome>Monitor</Nome>
+            <Quantidade>10</Quantidade>
+        </Hardware>
+        <EqEletrico>
+            <Nome>Candeeiro</Nome>
+            <Quantidade>5</Quantidade>
+        </EqEletrico>
+        <CalLimpeza>
+            <Data>
+                <Ano>2018</Ano>
+                <Mes>5</Mes>
+                <Dia>25</Dia>
+                <Hora>18</Hora>
+                <Minuto>27</Minuto>
+            </Data>
+        </CalLimpeza>
+        <CalManutencao>
+            <Data>
+                <Ano>2018</Ano>
+                <Mes>5</Mes>
+                <Dia>25</Dia>
+                <Hora>13</Hora>
+                <Minuto>01</Minuto>
+            </Data>
+        </CalManutencao>
+        <Avarias>
+            <Avaria>
+                <Equipamento>Monitor1</Equipamento>
+                <Descricao>Nao liga</Descricao>
+            </Avaria>
+        </Avarias>
+    </Sala>
+</Departamento>
