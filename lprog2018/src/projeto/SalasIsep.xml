@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Trans1.xsl"?>
 
-<Departamento xmlns="http://www.dei.isep.ipp.pt/lprog/gestaosalas">
+<Departamento
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+        xsd:schemaLocation="http://www.dei.isep.ipp.pt/lprog/gestaosalas Salas.xsd">
     <Sala>
         <Local>
             <Local>101</Local>
