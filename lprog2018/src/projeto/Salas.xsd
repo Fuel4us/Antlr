@@ -8,20 +8,20 @@
     <xs:element name="Departamento">
         <xs:complexType>
                 <xs:sequence>
-                    <xs:element name="Sala" type="TSala"/>
+                    <xs:element name="Sala" type="TSala" maxOccurs="unbounded"/>
                 </xs:sequence>
         </xs:complexType>
     </xs:element>
 
     <xs:complexType name="TSala">
         <xs:sequence>
-            <xs:element name="Local" type="TLocal"/>
-            <xs:element name="Mobilia" type="TMobilia"/>
-            <xs:element name="Hardware" type="THardware"/>
-            <xs:element name="EqEletrico" type="TEqEletrico"/>
-            <xs:element name="CalLimpeza" type="TCalLimpeza"/>
-            <xs:element name="CalManutencao" type="TCalManutencao"/>
-            <xs:element name="Avarias" type="TAvarias"/>
+            <xs:element name="Local" type="TLocal" maxOccurs="1"/>
+            <xs:element name="Mobilia" type="TMobilia" maxOccurs="unbounded"/>
+            <xs:element name="Hardware" type="THardware" maxOccurs="unbounded"/>
+            <xs:element name="EqEletrico" type="TEqEletrico" maxOccurs="unbounded"/>
+            <xs:element name="CalLimpeza" type="TCalLimpeza" maxOccurs="unbounded"/>
+            <xs:element name="CalManutencao" type="TCalManutencao" maxOccurs="unbounded"/>
+            <xs:element name="Avarias" type="TAvarias" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 

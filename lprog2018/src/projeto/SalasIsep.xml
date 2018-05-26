@@ -43,4 +43,46 @@
             </Avaria>
         </Avarias>
     </Sala>
+    <Sala>
+        <Local>
+            <Local>102</Local>
+            <Area>70</Area>
+        </Local>
+        <Mobilia>
+            <Mobilia>Mesa</Mobilia>
+            <Quantidade>20</Quantidade>
+        </Mobilia>
+        <Hardware>
+            <Nome>Computador</Nome>
+            <Quantidade>15</Quantidade>
+        </Hardware>
+        <EqEletrico>
+            <Nome>Quadro</Nome>
+            <Quantidade>1</Quantidade>
+        </EqEletrico>
+        <CalLimpeza>
+            <Data>
+                <Ano>2018</Ano>
+                <Mes>7</Mes>
+                <Dia>17</Dia>
+                <Hora>20</Hora>
+                <Minuto>00</Minuto>
+            </Data>
+        </CalLimpeza>
+        <CalManutencao>
+            <Data>
+                <Ano>2018</Ano>
+                <Mes>7</Mes>
+                <Dia>17</Dia>
+                <Hora>20</Hora>
+                <Minuto>00</Minuto>
+            </Data>
+        </CalManutencao>
+        <Avarias>
+            <Avaria>
+                <Equipamento>Computador3</Equipamento>
+                <Descricao>Fritou</Descricao>
+            </Avaria>
+        </Avarias>
+    </Sala>
 </Departamento>
