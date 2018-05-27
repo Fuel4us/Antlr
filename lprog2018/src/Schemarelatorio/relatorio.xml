@@ -104,6 +104,20 @@
                     <item>6º Transformação para XML</item>
                     <item>7º Transformação para XML</item>
                 </listaItems>
+                <parágrafo>1º Transformação</parágrafo>
+                <parágrafo>Mostra toda a informação do xml</parágrafo>
+                <parágrafo>2º Transformação</parágrafo>
+                <parágrafo>Lista todas as avarias por sala</parágrafo>
+                <parágrafo>3º Transformação</parágrafo>
+                <parágrafo>Mostra os calendários de limpeza e manutenção ordenados por data</parágrafo>
+                <parágrafo>4º Transformação</parágrafo>
+                <parágrafo>Mostra toda a informação num ficheiro txt</parágrafo>
+                <parágrafo>5º Transformação</parágrafo>
+                <parágrafo>Mostra a lista de equipamentos por sala</parágrafo>
+                <parágrafo>6º Transformação</parágrafo>
+                <parágrafo>Mostra o número e a área das salas por ordem descendente de área</parágrafo>
+                <parágrafo>7º Trasformação</parágrafo>
+                <parágrafo>Mostra a lista de equipamentos por quantidade superior a 10</parágrafo>
             </transformações>
         </outrasSecções>
         <conclusão tituloSecção="Conclusão" id="SEC005">
@@ -123,6 +137,11 @@
                 <URL>https://moodle.isep.ipp.pt/</URL>
                 <descrição>Recurso mais usado para perceber a matéria</descrição>
                 <consultadoEm>2018-05-24</consultadoEm>
+            </refWeb>
+            <refWeb idRef="RefW_08">
+                <URL>https://stackoverflow.com/</URL>
+                <descrição>Todas as nossas questões de XML foram respondidas neste brilhante site</descrição>
+                <consultadoEm>2018-05-05</consultadoEm>
             </refWeb>
         </referências>
     </corpo>
