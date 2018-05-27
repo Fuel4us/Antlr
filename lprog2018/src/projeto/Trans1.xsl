@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:output method="html"/>
+    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+        <xsl:output method="html"/>
 
-    <xsl:template match="/Departamento">
-        <html>
-            <head>
-                <title>Departamento</title>
-
-                <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
-            </head>
-            <body>
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Local</th>
-                            <th>Mobilia</th>
-                            <th>Hardware</th>
-                            <th>EqEletrico</th>
-                            <th>CalLimpeza</th>
-                            <th>CalManutencao</th>
-                            <th>Avarias</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <xsl:apply-templates select="Sala"/>
-                    </tbody>
-                    <tfooter>
-                        <tr>
-                            <th>Local</th>
-                            <th>Mobilia</th>
-                            <th>Hardware</th>
-                            <th>EqEletrico</th>
-                            <th>CalLimpeza</th>
-                            <th>CalManutencao</th>
-                            <th>Avarias</th>
-                        </tr>
-                    </tfooter>
-                </table>
-            </body>
-        </html>
-    </xsl:template>
+        <xsl:template match="/Departamento">
+            <html>
+                <head>
+                    <title>Departamento de Informática</title>
+                    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
+                </head>
+                <body>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Local</th>
+                                <th>Mobilia</th>
+                                <th>Hardware</th>
+                                <th>EqEletrico</th>
+                                <th>CalLimpeza</th>
+                                <th>CalManutencao</th>
+                                <th>Avarias</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <xsl:apply-templates select="Sala"/>
+                        </tbody>
+                        <tfooter>
+                            <tr>
+                                <th>Local</th>
+                                <th>Mobilia</th>
+                                <th>Hardware</th>
+                                <th>EqEletrico</th>
+                                <th>CalLimpeza</th>
+                                <th>CalManutencao</th>
+                                <th>Avarias</th>
+                            </tr>
+                        </tfooter>
+                    </table>
+                </body>
+            </html>
+        </xsl:template>
 
     <xsl:template match="Sala">
         <tr>

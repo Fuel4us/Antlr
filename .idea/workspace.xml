@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d7d471-10d7-4225-900a-cfd6feb479f8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/Schemarelatorio/Relatorio.xsd" afterPath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/Relatorio.xsd" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/Schemarelatorio/RelatorioComplexTypes.xsd" afterPath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/RelatorioComplexTypes.xsd" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/Schemarelatorio/RelatorioSimpleTypes.xsd" afterPath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/RelatorioSimpleTypes.xsd" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/src/projeto/HTML.html" afterPath="$PROJECT_DIR$/lprog2018/src/projeto/HTML.html" />
       <change beforePath="$PROJECT_DIR$/lprog2018/src/projeto/Trans1.xsl" afterPath="$PROJECT_DIR$/lprog2018/src/projeto/Trans1.xsl" />
-      <change beforePath="$PROJECT_DIR$/lprog2018/src/projeto/chupamos.html" afterPath="$PROJECT_DIR$/lprog2018/src/projeto/HTML.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +21,7 @@
       <file leaf-file-name="Salas.xsd" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Salas.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="1564">
               <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
               <folding />
             </state>
@@ -27,14 +31,15 @@
       <file leaf-file-name="SalasIsep.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/SalasIsep.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="314" column="22" lean-forward="false" selection-start-line="314" selection-start-column="9" selection-end-line="314" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="1138" column="28" lean-forward="false" selection-start-line="1138" selection-start-column="28" selection-end-line="1138" selection-end-column="28" />
               <folding>
                 <element signature="n#Sala#0;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#1;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#2;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#3;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#4;n#Departamento#0;n#!!top" expanded="false" />
+                <element signature="n#Sala#5;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#6;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#7;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#8;n#Departamento#0;n#!!top" expanded="false" />
@@ -49,7 +54,6 @@
                 <element signature="n#Sala#17;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#18;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#19;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#20;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#21;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#22;n#Departamento#0;n#!!top" expanded="false" />
                 <element signature="n#Sala#23;n#Departamento#0;n#!!top" expanded="false" />
@@ -58,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trans1.xsl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Trans1.xsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Trans1.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="72" column="19" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="72" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trans2.xsl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Trans2.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -73,8 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="XSLT Stylesheet" />
         <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
       </list>
     </option>
   </component>
@@ -101,6 +115,7 @@
         <option value="$PROJECT_DIR$/lprog2018/src/projeto/Salas.xsd" />
         <option value="$PROJECT_DIR$/lprog2018/src/projeto/SalasIsep.xml" />
         <option value="$PROJECT_DIR$/lprog2018/src/projeto/Trans1.xsl" />
+        <option value="$PROJECT_DIR$/lprog2018/src/projeto/Trans2.xsl" />
       </list>
     </option>
   </component>
@@ -144,12 +159,6 @@
               <item name="lprogxml" type="b2602c69:ProjectViewProjectNode" />
               <item name="lprogxml" type="462c0819:PsiDirectoryNode" />
               <item name="lprog2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Schemarelatorio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lprogxml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lprogxml" type="462c0819:PsiDirectoryNode" />
-              <item name="lprog2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,9 +175,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lprog2018/src/projeto/chupamos.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lprog2018/src/projeto/HTML.html" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruben\Desktop\lprogxml\lprog2018\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="XSLT.Trans2.xsl">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -275,15 +289,37 @@
       <FileType name="HTML" />
       <JdkChoice value="FROM_MODULE" />
     </configuration>
+    <configuration name="Trans2.xsl" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" value="C:\Users\ruben\Desktop\lprogxml\lprog2018\src\projeto\HTML.html" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="true" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/lprog2018/src/projeto/Trans2.xsl" />
+      <XmlFile url="file://$PROJECT_DIR$/lprog2018/src/projeto/SalasIsep.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="true" />
+      <FileType name="HTML" />
+      <JdkChoice value="FROM_MODULE" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="XSLT.Trans1.xsl" />
+      <item index="1" class="java.lang.String" itemvalue="XSLT.Trans2.xsl" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="XSLT.Trans1.xsl" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="XSLT.Trans2.xsl" />
+        <item index="1" class="java.lang.String" itemvalue="XSLT.Trans1.xsl" />
       </list>
     </recent_temporary>
   </component>
@@ -364,22 +400,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Salas.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="1564">
           <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Trans1.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="72" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/SalasIsep.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="314" column="22" lean-forward="false" selection-start-line="314" selection-start-column="9" selection-end-line="314" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="1138" column="28" lean-forward="false" selection-start-line="1138" selection-start-column="28" selection-end-line="1138" selection-end-column="28" />
           <folding>
             <element signature="n#Sala#0;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#1;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#2;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#3;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#4;n#Departamento#0;n#!!top" expanded="false" />
+            <element signature="n#Sala#5;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#6;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#7;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#8;n#Departamento#0;n#!!top" expanded="false" />
@@ -394,7 +439,6 @@
             <element signature="n#Sala#17;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#18;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#19;n#Departamento#0;n#!!top" expanded="false" />
-            <element signature="n#Sala#20;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#21;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#22;n#Departamento#0;n#!!top" expanded="false" />
             <element signature="n#Sala#23;n#Departamento#0;n#!!top" expanded="false" />
@@ -402,10 +446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Trans1.xsl">
+    <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/Trans2.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding />
         </state>
       </provider>
