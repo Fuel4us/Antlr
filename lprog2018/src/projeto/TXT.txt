@@ -1,0 +1,280 @@
+Lista de Equipamentos
+
+Sala: 101
+
+ Nome: Monitor
+ Quantidade: 10
+
+ Nome: Candeeiro
+ Quantidade: 5
+
+
+Sala: 102
+
+ Nome: Computador
+ Quantidade: 15
+
+ Nome: Monitor
+ Quantidade: 15
+
+ Nome: Quadro
+ Quantidade: 1
+
+
+Sala: 103
+
+ Nome: computador
+ Quantidade: 10
+
+ Nome: AccessPoint
+ Quantidade: 1
+
+
+Sala: 104
+
+ Nome: Computador
+ Quantidade: 10
+
+ Nome: AccessPoint
+ Quantidade: 1
+
+
+Sala: 105
+
+ Nome: computador
+ Quantidade: 10
+
+ Nome: Monitor
+ Quantidade: 10
+
+ Nome: AccessPoint
+ Quantidade: 1
+
+ Nome: Projetor
+ Quantidade: 1
+
+
+Sala: 106
+
+ Nome: computador
+ Quantidade: 10
+
+ Nome: Monitor
+ Quantidade: 10
+
+ Nome: AccessPoint
+ Quantidade: 1
+
+ Nome: Projetor
+ Quantidade: 1
+
+
+Sala: 107
+
+ Nome: Nada
+ Quantidade: 0
+
+ Nome: Nada
+ Quantidade: 1
+
+
+Sala: 108
+
+ Nome: RatoCorsair
+ Quantidade: 2
+
+ Nome: EAPLI
+ Quantidade: 20
+
+
+Sala: 201
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 8
+
+
+Sala: 202
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 1
+
+
+Sala: 203
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: RatosGaming
+ Quantidade: 2
+
+ Nome: AccessPoints
+ Quantidade: 1
+
+ Nome: Motherboards
+ Quantidade: 2
+
+
+Sala: 204
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 1
+
+
+Sala: 205
+
+ Nome: Computador
+ Quantidade: 1
+
+ Nome: Projetor
+ Quantidade: 1
+
+
+Sala: 206
+
+ Nome: Computador
+ Quantidade: 20
+
+ Nome: Monitor
+ Quantidade: 20
+
+ Nome: ServidorDoDepartamento
+ Quantidade: 1
+
+
+Sala: 207
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 1
+
+
+Sala: 208
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 1
+
+
+Sala: 301
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 2
+
+
+Sala: 302
+
+ Nome: Computador
+ Quantidade: 1
+
+ Nome: Televis&atilde;o
+ Quantidade: 2
+
+ Nome: Projetor
+ Quantidade: 2
+
+
+Sala: 303
+
+ Nome: Computadores
+ Quantidade: 20
+
+ Nome: Monitores
+ Quantidade: 30
+
+ Nome: AccessPoints
+ Quantidade: 2
+
+
+Sala: 304
+
+ Nome: Televis&atilde;o
+ Quantidade: 2
+
+ Nome: Aquecedor
+ Quantidade: 2
+
+
+Sala: 305
+
+ Nome: Computador
+ Quantidade: 12
+
+ Nome: AccessPoint
+ Quantidade: 1
+
+
+Sala: 306
+
+ Nome: Computadores
+ Quantidade: 10
+
+ Nome: Projetor
+ Quantidade: 1
+
+
+Sala: 307
+
+ Nome: Teclados
+ Quantidade: 10
+
+ Nome: Televis&atilde;o
+ Quantidade: 2
+
+
+Sala: 308
+
+ Nome: Computador
+ Quantidade: 20
+
+ Nome: Monitor
+ Quantidade: 20
+
+ Nome: Teclados
+ Quantidade: 20
+
+ Nome: Rato
+ Quantidade: 20
+
+ Nome: AccessPoint
+ Quantidade: 1
+
+ Nome: Projetor
+ Quantidade: 1
+
