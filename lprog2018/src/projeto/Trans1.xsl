@@ -49,7 +49,7 @@
             <td><xsl:apply-templates select="./Hardware"/></td>
             <td><xsl:apply-templates select="./EqEletrico"/></td>
             <td><xsl:apply-templates select="./CalLimpeza"/></td>
-            <td><xsl:apply-templates select="./CalManutecao"/></td>
+            <td><xsl:apply-templates select="./CalManutencao"/></td>
             <td><xsl:apply-templates select="./Avarias"/></td>
         </tr>
     </xsl:template>
@@ -107,9 +107,7 @@
                 </thead>
             </thead>
             <tbody>
-                <tr>
-                    <xsl:apply-templates select="./Equipamento"/>
-                </tr>
+                <xsl:apply-templates select="./Equipamento"/>
             </tbody>
         </table>
     </xsl:template>
@@ -125,14 +123,12 @@
                 </thead>
             </thead>
             <tbody>
-                <tr>
-                    <xsl:apply-templates select="./Equipamento"/>
-                </tr>
+                <xsl:apply-templates select="./Equipamento"/>
             </tbody>
         </table>
     </xsl:template>
 
-    <xsl:template match="Mobilia">
+    <xsl:template match="Equipamento">
         <tr>
             <td><xsl:value-of select="./Nome"/></td>
             <td><xsl:value-of select="./Quantidade"/></td>
@@ -149,17 +145,12 @@
                 </thead>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        <xsl:value-of select="./Data/Dia"/>-<xsl:value-of select="./Data/Mes"/>-<xsl:value-of select="./Data/Ano"/>
-                        | <xsl:value-of select="./Data/Hora"/>:<xsl:value-of select="./Data/Minuto"/>
-                    </td>
-                </tr>
+                <xsl:apply-templates select="./Data"/>
             </tbody>
         </table>
     </xsl:template>
 
-    <xsl:template match="CalManutecao">
+    <xsl:template match="CalManutencao">
         <table class="table table-striped">
             <thead>
                 <thead>
@@ -169,32 +160,41 @@
                 </thead>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        <xsl:value-of select="./Data/Dia"/>-<xsl:value-of select="./Data/Mes"/>-<xsl:value-of select="./Data/Ano"/>
-                        | <xsl:value-of select="./Data/Hora"/>:<xsl:value-of select="./Data/Minuto"/>
-                    </td>
-                </tr>
+                <xsl:apply-templates select="./Data"/>
             </tbody>
         </table>
     </xsl:template>
 
+    <xsl:template match="Data">
+        <tr>
+            <td>
+                <xsl:value-of select="./Dia"/>-<xsl:value-of select="./Mes"/>-<xsl:value-of select="./Ano"/>
+                | <xsl:value-of select="./Hora"/>:<xsl:value-of select="./Minuto"/>
+            </td>
+        </tr>
+    </xsl:template>
+
     <xsl:template match="Avarias">
-        <table class="table table-striped">
-            <thead>
+            <table class="table table-striped">
                 <thead>
-                    <tr>
-                        <th>Nome</th>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Equipamento</th>
+                            <th>Descricao</th>
+                        </tr>
+                    </thead>
                 </thead>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><xsl:value-of select="./Nome"/></td>
-                    <td><xsl:value-of select="./Quantidade"/></td>
-                </tr>
-            </tbody>
-        </table>
+                <tbody>
+                    <xsl:apply-templates select="./Avaria"/>
+                </tbody>
+            </table>
+        </xsl:template>
+
+    <xsl:template match="Avaria">
+        <tr>
+            <td><xsl:value-of select="./Equipamento"/></td>
+            <td><xsl:value-of select="./Descricao"/></td>
+        </tr>
     </xsl:template>
 
 </xsl:stylesheet>
