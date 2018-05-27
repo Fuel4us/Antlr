@@ -16,7 +16,7 @@
     <xs:complexType name="TSala">
         <xs:sequence>
             <xs:element name="Local" type="TLocal" maxOccurs="1"/>
-            <xs:element name="Mobilia" type="TMobilia" maxOccurs="unbounded"/>
+            <xs:element name="Mobilias" type="TMobilias" maxOccurs="unbounded"/>
             <xs:element name="Hardware" type="THardware" maxOccurs="unbounded"/>
             <xs:element name="EqEletrico" type="TEqEletrico" maxOccurs="unbounded"/>
             <xs:element name="CalLimpeza" type="TCalLimpeza" maxOccurs="unbounded"/>
@@ -32,26 +32,37 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="TMobilias">
+        <xs:sequence>
+            <xs:element name="Mobilia" type="TMobilia"/>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="TMobilia">
         <xs:sequence>
-            <xs:element name="Mobilia" type="xs:string"/>
+            <xs:element name="Nome" type="xs:string"/>
             <xs:element name="Quantidade" type="xs:int"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="THardware">
         <xs:sequence>
-            <xs:element name="Nome" type="xs:string"/>
-            <xs:element name="Quantidade" type="xs:int"/>
+            <xs:element name="Equipamento" type="TEquipamento"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="TEqEletrico">
         <xs:sequence>
+            <xs:element name="Equipamento" type="TEquipamento"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="TEquipamento">
+        <xs:sequence>
             <xs:element name="Nome" type="xs:string"/>
             <xs:element name="Quantidade" type="xs:int"/>
         </xs:sequence>
-    </xs:complexType>
+	</xs:complexType>
 
     <xs:complexType name="TCalLimpeza">
         <xs:sequence>
@@ -73,7 +84,6 @@
             <xs:element name="Hora" type="xs:int"/>
             <xs:element name="Minuto" type="xs:int"/>
         </xs:sequence>
-
     </xs:complexType>
 
     <xs:complexType name="TAvarias">

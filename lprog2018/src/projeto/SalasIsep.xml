@@ -9,17 +9,23 @@
             <Local>101</Local>
             <Area>50</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesa</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Monitor</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>Monitor</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Candeeiro</Nome>
-            <Quantidade>5</Quantidade>
+            <Equipamento>
+                <Nome>Candeeiro</Nome>
+                <Quantidade>5</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -51,21 +57,27 @@
             <Local>102</Local>
             <Area>70</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesa</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computador</Nome>
-            <Quantidade>15</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitor</Nome>
-            <Quantidade>15</Quantidade>
+            <Equipamento>
+                <Nome>Computador</Nome>
+                <Quantidade>15</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitor</Nome>
+                <Quantidade>15</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Quadro</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>Quadro</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -97,21 +109,27 @@
             <Local>103</Local>
             <Area>50</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>cadeiras</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Nome>Cadeira</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>computador</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>computador</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoint</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoint</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -143,21 +161,27 @@
             <Local>104</Local>
             <Area>50</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
             <Mobilia>cadeiras</Mobilia>
             <Quantidade>20</Quantidade>
-        </Mobilia>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>computador</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>computador</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoint</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoint</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -189,29 +213,35 @@
             <Local>105</Local>
             <Area>75</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>cadeiras</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Nome>cadeiras</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>computador</Nome>
-            <Quantidade>10</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitor</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>computador</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitor</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoint</Nome>
-            <Quantidade>1</Quantidade>
-        </EqEletrico>
-        <EqEletrico>
-            <Nome>Projetor</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoint</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Projetor</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -243,29 +273,35 @@
             <Local>106</Local>
             <Area>30</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>cadeiras</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>cadeiras</Mobilia>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>computador</Nome>
-            <Quantidade>10</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitor</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>computador</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitor</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoint</Nome>
-            <Quantidade>1</Quantidade>
-        </EqEletrico>
-        <EqEletrico>
-            <Nome>Projetor</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoint</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Projetor</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -297,17 +333,23 @@
             <Local>107</Local>
             <Area>25</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>3</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Cadeira</Nome>
+                <Quantidade>3</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Nada</Nome>
-            <Quantidade>0</Quantidade>
+            <Equipamento>
+                <Nome>Nada</Nome>
+                <Quantidade>0</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Nada</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>Nada</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -339,17 +381,23 @@
             <Local>108</Local>
             <Area>33</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Nada</Mobilia>
-            <Quantidade>0</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Nada</Nome>
+                <Quantidade>0</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>RatoCorsair</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>RatoCorsair</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>EAPLI</Nome>
-            <Quantidade>20</Quantidade>
+            <Equipamento>
+                <Nome>EAPLI</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -381,25 +429,31 @@
             <Local>201</Local>
             <Area>25</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>35</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeira</Mobilia>
+                <Quantidade>35</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>8</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>8</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -431,25 +485,31 @@
             <Local>202</Local>
             <Area>45</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeiras</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -481,33 +541,39 @@
             <Local>203</Local>
             <Area>50</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeira</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>RatosGaming</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>RatosGaming</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>1</Quantidade>
-        </EqEletrico>
-        <EqEletrico>
-            <Nome>Motherboards</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Motherboards</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -539,25 +605,31 @@
             <Local>204</Local>
             <Area>50</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeira</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -589,17 +661,23 @@
             <Local>205</Local>
             <Area>60</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>60</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Cadeira</Nome>
+                <Quantidade>60</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computador</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>Computador</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Projetor</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>Projetor</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -631,25 +709,31 @@
             <Local>206</Local>
             <Area>65</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeira</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeira</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computador</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitor</Nome>
-            <Quantidade>20</Quantidade>
+            <Equipamento>
+                <Nome>Computador</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitor</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>ServidorDoDepartamento</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>ServidorDoDepartamento</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -681,25 +765,31 @@
             <Local>207</Local>
             <Area>45</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeiras</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -731,25 +821,31 @@
             <Local>208</Local>
             <Area>52</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeiras</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -781,25 +877,31 @@
             <Local>301</Local>
             <Area>49</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>17</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeiras</Mobilia>
+                <Quantidade>17</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -831,25 +933,31 @@
             <Local>302</Local>
             <Area>150</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>100</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Mesa</Mobilia>
-            <Quantidade>1</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Cadeira</Nome>
+                <Quantidade>100</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Mesa</Mobilia>
+                <Quantidade>1</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computador</Nome>
-            <Quantidade>1</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Televisão</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>Computador</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Televisão</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Projetor</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>Projetor</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -881,25 +989,31 @@
             <Local>303</Local>
             <Area>85</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>37</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeiras</Mobilia>
+                <Quantidade>37</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitores</Nome>
-            <Quantidade>30</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitores</Nome>
+                <Quantidade>30</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoints</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoints</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -931,21 +1045,27 @@
             <Local>304</Local>
             <Area>30</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesa de ping-pong</Mobilia>
-            <Quantidade>1</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Mesa de bilhar</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa de ping-pong</Nome>
+                <Quantidade>1</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Mesa de bilhar</Mobilia>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Televisão</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>Televisão</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Aquecedor</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>Aquecedor</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -977,17 +1097,23 @@
             <Local>305</Local>
             <Area>40</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>12</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>12</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoint</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoint</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -1019,17 +1145,23 @@
             <Local>306</Local>
             <Area>10</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computadores</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>Computadores</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Projetor</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>Projetor</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -1061,17 +1193,23 @@
             <Local>307</Local>
             <Area>75</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Teclados</Nome>
-            <Quantidade>10</Quantidade>
+            <Equipamento>
+                <Nome>Teclados</Nome>
+                <Quantidade>10</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>Televisão</Nome>
-            <Quantidade>2</Quantidade>
+            <Equipamento>
+                <Nome>Televisão</Nome>
+                <Quantidade>2</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>
@@ -1103,37 +1241,43 @@
             <Local>308</Local>
             <Area>50</Area>
         </Local>
-        <Mobilia>
-            <Mobilia>Mesas</Mobilia>
-            <Quantidade>10</Quantidade>
-        </Mobilia>
-        <Mobilia>
-            <Mobilia>Cadeiras</Mobilia>
-            <Quantidade>20</Quantidade>
-        </Mobilia>
+        <Mobilias>
+            <Mobilia>
+                <Nome>Mesa</Nome>
+                <Quantidade>10</Quantidade>
+            </Mobilia>
+            <Mobilia>
+                <Mobilia>Cadeiras</Mobilia>
+                <Quantidade>20</Quantidade>
+            </Mobilia>
+        </Mobilias>
         <Hardware>
-            <Nome>Computador</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Monitor</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Teclados</Nome>
-            <Quantidade>20</Quantidade>
-        </Hardware>
-        <Hardware>
-            <Nome>Rato</Nome>
-            <Quantidade>20</Quantidade>
+            <Equipamento>
+                <Nome>Computador</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Monitor</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Teclados</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Rato</Nome>
+                <Quantidade>20</Quantidade>
+            </Equipamento>
         </Hardware>
         <EqEletrico>
-            <Nome>AccessPoint</Nome>
-            <Quantidade>1</Quantidade>
-        </EqEletrico>
-        <EqEletrico>
-            <Nome>Projetor</Nome>
-            <Quantidade>1</Quantidade>
+            <Equipamento>
+                <Nome>AccessPoint</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
+            <Equipamento>
+                <Nome>Projetor</Nome>
+                <Quantidade>1</Quantidade>
+            </Equipamento>
         </EqEletrico>
         <CalLimpeza>
             <Data>

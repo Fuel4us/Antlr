@@ -7,11 +7,13 @@
         <html>
             <head>
                 <title>Departamento</title>
+
+                <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
             </head>
             <body>
-                <table border="1">
+                <table class="table table-striped">
                     <thead>
-                        <tr bgcolor="#9acd32">
+                        <tr>
                             <th>Local</th>
                             <th>Mobilia</th>
                             <th>Hardware</th>
@@ -25,7 +27,7 @@
                         <xsl:apply-templates select="Sala"/>
                     </tbody>
                     <tfooter>
-                        <tr bgcolor="#9acd32">
+                        <tr>
                             <th>Local</th>
                             <th>Mobilia</th>
                             <th>Hardware</th>
@@ -43,15 +45,20 @@
     <xsl:template match="Sala">
         <tr>
             <td><xsl:apply-templates select="./Local"/></td>
-            <td><xsl:apply-templates select="./Mobilia"/></td>
+            <td><xsl:apply-templates select="./Mobilias"/></td>
+            <td><xsl:apply-templates select="./Hardware"/></td>
+            <td><xsl:apply-templates select="./EqEletrico"/></td>
+            <td><xsl:apply-templates select="./CalLimpeza"/></td>
+            <td><xsl:apply-templates select="./CalManutecao"/></td>
+            <td><xsl:apply-templates select="./Avarias"/></td>
         </tr>
     </xsl:template>
 
     <xsl:template match="Local">
-        <table>
+        <table class="table table-striped">
             <thead>
                 <thead>
-                    <tr bgcolor="#83CFF3">
+                    <tr>
                         <th>Local</th>
                         <th>Area</th>
                     </tr>
@@ -66,19 +73,115 @@
         </table>
     </xsl:template>
 
-    <xsl:template match="Mobilia">
-        <table>
+    <xsl:template match="Mobilias">
+        <table class="table table-striped">
             <thead>
                 <thead>
                     <tr bgcolor="#83CFF3">
-                        <th>Mobilia</th>
+                        <th>Nome</th>
                         <th>Quantidade</th>
                     </tr>
                 </thead>
             </thead>
             <tbody>
                 <tr>
-                    <td><xsl:value-of select="./Mobilia"/></td>
+                    <td><xsl:value-of select="./Mobilia/Nome"/></td>
+                    <td><xsl:value-of select="./Mobilia/Quantidade"/></td>
+                </tr>
+            </tbody>
+        </table>
+    </xsl:template>
+
+    <xsl:template match="Hardware">
+        <table class="table table-striped">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><xsl:value-of select="./Nome"/></td>
+                    <td><xsl:value-of select="./Quantidade"/></td>
+                </tr>
+            </tbody>
+        </table>
+    </xsl:template>
+
+    <xsl:template match="EqEletrico">
+        <table class="table table-striped">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><xsl:value-of select="./Nome"/></td>
+                    <td><xsl:value-of select="./Quantidade"/></td>
+                </tr>
+            </tbody>
+        </table>
+    </xsl:template>
+
+    <xsl:template match="CalLimpeza">
+        <table class="table table-striped">
+            <thead>
+                <thead>
+                    <tr bgcolor="#83CFF3">
+                        <th>Data</th>
+                    </tr>
+                </thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <xsl:value-of select="./Data/Dia"/>-<xsl:value-of select="./Data/Mes"/>-<xsl:value-of select="./Data/Ano"/>
+                        | <xsl:value-of select="./Data/Hora"/>:<xsl:value-of select="./Data/Minuto"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </xsl:template>
+
+    <xsl:template match="CalManutecao">
+        <table class="table table-striped">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <xsl:value-of select="./Data/Dia"/>-<xsl:value-of select="./Data/Mes"/>-<xsl:value-of select="./Data/Ano"/>
+                        | <xsl:value-of select="./Data/Hora"/>:<xsl:value-of select="./Data/Minuto"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </xsl:template>
+
+    <xsl:template match="Avarias">
+        <table class="table table-striped">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                    </tr>
+                </thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><xsl:value-of select="./Nome"/></td>
                     <td><xsl:value-of select="./Quantidade"/></td>
                 </tr>
             </tbody>
