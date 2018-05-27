@@ -167,13 +167,13 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-            <Mobilia>cadeiras</Mobilia>
-            <Quantidade>20</Quantidade>
+                <Nome>Cadeira</Nome>
+                <Quantidade>20</Quantidade>
             </Mobilia>
         </Mobilias>
         <Hardware>
             <Equipamento>
-                <Nome>computador</Nome>
+                <Nome>Computador</Nome>
                 <Quantidade>10</Quantidade>
             </Equipamento>
         </Hardware>
@@ -219,7 +219,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Nome>cadeiras</Nome>
+                <Nome>Cadeira</Nome>
                 <Quantidade>20</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -279,7 +279,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>cadeiras</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>20</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -435,7 +435,7 @@
                 <Quantidade>20</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeira</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>35</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -491,7 +491,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeiras</Mobilia>
+                <Nome>Cadeiras</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -547,7 +547,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeira</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -611,7 +611,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeira</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -715,7 +715,7 @@
                 <Quantidade>20</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeira</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -771,7 +771,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeiras</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -827,7 +827,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeiras</Mobilia>
+                <Nome>Cadeiras</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -883,7 +883,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeiras</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>17</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -939,7 +939,7 @@
                 <Quantidade>100</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Mesa</Mobilia>
+                <Nome>Mesa</Nome>
                 <Quantidade>1</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -995,7 +995,7 @@
                 <Quantidade>20</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeiras</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>37</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -1051,7 +1051,7 @@
                 <Quantidade>1</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Mesa de bilhar</Mobilia>
+                <Nome>Mesa de bilhar</Nome>
                 <Quantidade>10</Quantidade>
             </Mobilia>
         </Mobilias>
@@ -1105,7 +1105,7 @@
         </Mobilias>
         <Hardware>
             <Equipamento>
-                <Nome>Computadores</Nome>
+                <Nome>Computador</Nome>
                 <Quantidade>12</Quantidade>
             </Equipamento>
         </Hardware>
@@ -1247,7 +1247,7 @@
                 <Quantidade>10</Quantidade>
             </Mobilia>
             <Mobilia>
-                <Mobilia>Cadeiras</Mobilia>
+                <Nome>Cadeira</Nome>
                 <Quantidade>20</Quantidade>
             </Mobilia>
         </Mobilias>

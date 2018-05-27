@@ -84,12 +84,16 @@
                 </thead>
             </thead>
             <tbody>
-                <tr>
-                    <td><xsl:value-of select="./Mobilia/Nome"/></td>
-                    <td><xsl:value-of select="./Mobilia/Quantidade"/></td>
-                </tr>
+                <xsl:apply-templates select="./Mobilia"/>
             </tbody>
         </table>
+    </xsl:template>
+
+    <xsl:template match="Mobilia">
+        <tr>
+            <td><xsl:value-of select="./Nome"/></td>
+            <td><xsl:value-of select="./Quantidade"/></td>
+        </tr>
     </xsl:template>
 
     <xsl:template match="Hardware">
@@ -104,8 +108,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><xsl:value-of select="./Nome"/></td>
-                    <td><xsl:value-of select="./Quantidade"/></td>
+                    <xsl:apply-templates select="./Equipamento"/>
                 </tr>
             </tbody>
         </table>
@@ -123,11 +126,17 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><xsl:value-of select="./Nome"/></td>
-                    <td><xsl:value-of select="./Quantidade"/></td>
+                    <xsl:apply-templates select="./Equipamento"/>
                 </tr>
             </tbody>
         </table>
+    </xsl:template>
+
+    <xsl:template match="Mobilia">
+        <tr>
+            <td><xsl:value-of select="./Nome"/></td>
+            <td><xsl:value-of select="./Quantidade"/></td>
+        </tr>
     </xsl:template>
 
     <xsl:template match="CalLimpeza">
