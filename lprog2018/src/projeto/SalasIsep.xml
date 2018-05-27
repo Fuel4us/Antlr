@@ -1132,6 +1132,20 @@
                 <Hora>20</Hora>
                 <Minuto>00</Minuto>
             </Data>
+            <Data>
+                <Ano>2014</Ano>
+                <Mes>11</Mes>
+                <Dia>15</Dia>
+                <Hora>20</Hora>
+                <Minuto>00</Minuto>
+            </Data>
+            <Data>
+                <Ano>2018</Ano>
+                <Mes>11</Mes>
+                <Dia>15</Dia>
+                <Hora>20</Hora>
+                <Minuto>00</Minuto>
+            </Data>
         </CalManutencao>
         <Avarias>
             <Avaria>

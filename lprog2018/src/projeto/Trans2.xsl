@@ -13,19 +13,19 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>Avarias</th>
+                            <th>Avaria</th>
                             <th>Sala</th>
                         </tr>
                     </thead>
                     <tbody>
                         <xsl:apply-templates select="Sala"/>
                     </tbody>
-                    <tfooter>
+                    <tfoot>
                         <tr>
-                            <th>Avarias</th>
+                            <th>Avaria</th>
                             <th>Sala</th>
                         </tr>
-                    </tfooter>
+                    </tfoot>
                 </table>
             </body>
         </html>
@@ -39,14 +39,12 @@
     </xsl:template>
 
     <xsl:template match="Avarias">
-        <table class="table table-striped">
+        <table>
             <thead>
-                <thead>
-                    <tr>
-                        <th>Equipamento</th>
-                        <th>Descricao</th>
-                    </tr>
-                </thead>
+                <tr>
+                    <th>Equipamento</th>
+                    <th>Descricao</th>
+                </tr>
             </thead>
             <tbody>
                 <xsl:apply-templates select="./Avaria"/>
@@ -62,20 +60,7 @@
     </xsl:template>
 
     <xsl:template match="Local">
-        <table class="table table-striped">
-            <thead>
-                <thead>
-                    <tr>
-                        <th>Local</th>
-                    </tr>
-                </thead>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><xsl:value-of select="./Local"/></td>
-                </tr>
-            </tbody>
-        </table>
+        <xsl:value-of select="./Local"/>
     </xsl:template>
 
 </xsl:stylesheet>

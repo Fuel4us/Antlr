@@ -25,7 +25,7 @@
                         <tbody>
                             <xsl:apply-templates select="Sala"/>
                         </tbody>
-                        <tfooter>
+                        <tfoot>
                             <tr>
                                 <th>Local</th>
                                 <th>Mobilia</th>
@@ -35,7 +35,7 @@
                                 <th>CalManutencao</th>
                                 <th>Avarias</th>
                             </tr>
-                        </tfooter>
+                        </tfoot>
                     </table>
                 </body>
             </html>
@@ -76,7 +76,7 @@
         <table class="table table-striped">
             <thead>
                 <thead>
-                    <tr bgcolor="#83CFF3">
+                    <tr>
                         <th>Nome</th>
                         <th>Quantidade</th>
                     </tr>
@@ -138,7 +138,7 @@
         <table class="table table-striped">
             <thead>
                 <thead>
-                    <tr bgcolor="#83CFF3">
+                    <tr>
                         <th>Data</th>
                     </tr>
                 </thead>
