@@ -1,0 +1,186 @@
+<html xmlns:ns="http://www.dei.isep.ipp.pt/lprog">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Relat&oacute;rio de LPROG</title>
+</head>
+<body>
+<table width="1500" align="center" border="0">
+<tr>
+<td align="center"><img src="https://www2.dei.isep.ipp.pt/images/logo.png"></td>
+</tr>
+<tr align="center">
+<td>
+<table align="center" border="0">
+<h1 id="header1">
+<font size="12" color="#1f3d7a"><b>Relat&oacute;rio de Linguagens e Programa&ccedil;&atilde;o</b></font>
+</h1>
+<br>
+<br>
+<font size="5" color="#1f3d7a"><b> Tema 5 - Gest&atilde;o de Salas do ISEP </b></font>
+<br>
+<br>
+<font size="4" color="#1a1a1a">Instituto Superior de Engenharia do Porto - Licenciatura em Engenharia Inform&aacute;tica</font>
+<br>
+<br>
+<font size="4" color="#1a1a1a">Linguagens e Programa&ccedil;&atilde;o:
+                                    2&ordm; Ano Curricular
+                                </font>
+<br>
+<br>
+<font size="4" color="#1a1a1a">
+                                    Turma:
+                                    2DB<br>
+</font>
+<br>
+<font size="4" color="#1a1a1a">
+                                    Professor (Sigla):
+                                    <br>PL - Ant&oacute;nio Pinto da Sousa e Silva<br>TP - Jos&eacute; Antonio Reis Tavares<br>T - Ana Maria Dias Madureira Pereira<br>
+</font>
+<br>
+<br>
+<font size="4" color="#1a1a1a">
+                                    Autores:
+                                    <br>Gon&ccedil;alo Fonseca - 1150503 - 1150503@isep.ipp.pt<br>Rub&eacute;n Ribeiro - 1160998 - 1160998@isep.ipp.pt<br>Hil&aacute;rio Coelho - 1160557 - 1160557@isep.ipp.pt<br>
+</font>
+<br>
+<br>
+<font size="6" color="#1f3d7a"><b>&Iacute;ndice</b></font>
+<br>
+<br>
+<font size="4"><a href="#header1">Capa</a>
+<br>
+<a href="#header2">Introdu&ccedil;&atilde;o</a>
+<br>
+<a href="#header3">An&aacute;lise</a>
+<br>
+<a href="#header4">Linguagem</a>
+<br>
+<a href="#header5">Transforma&ccedil;&otilde;es</a>
+<br>
+<a href="#header6">Conclus&atilde;o</a>
+<br>
+<a href="#header7">Refer&ecirc;ncias bibliogr&aacute;ficas</a></font>
+<br>
+<br>
+<h1 id="header2">
+<font size="6" color="#1f3d7a"><b>Introdu&ccedil;&atilde;o</b></font>
+</h1>
+<font size="4" color="#1a1a1a">
+                Este projeto foi realizado no &acirc;mbito da disciplina de Linguagens e Programa&ccedil;&atilde;o
+                do 2&ordm; ano da licenciatura de Engenharia Inform&aacute;tica do ISEP.
+                Neste relat&oacute;rio pretendemos demonstrar os conhecimentos adquiridos ao longo do
+                semestre.
+            <br>
+<br>
+                Vamos usar os nossos conhecimentos para desenvolver uma solu&ccedil;&atilde;o sobre o tema
+                que nos foi proposto: Gerir Salas do ISEP. Alguns dos problemas que nos surgiram
+                foram:
+            <br>
+<br>
+<ul style="text-align:left;">
+<li>Manipula&ccedil;&atilde;o de XML</li>
+<li>Usar a sintaxe correta para ligar XML e Schemas</li>
+<li>Cria&ccedil;&atilde;o de 30 salas sem as tornar muito iguais</li>
+<li>Conseguir por uma transforma&ccedil;&atilde;o usando o sort a funcionar</li>
+<li>Perceber bem a hierarquia que se pode usar no relatorio</li>
+</ul>
+</font>
+<h1 id="header3">
+<font size="6" color="#1f3d7a"><b>An&aacute;lise</b></font>
+</h1>
+<font size="4" color="#1a1a1a"><font color="#008ae6">- Especifica&ccedil;&atilde;o do problema:</font>
+<p align="justify">
+                    Na resolu&ccedil;&atilde;o deste trabalho o importante era manipular bem as propriedades
+                    das salas do ISEP que por s&atilde;o ainda constituidas por outros atributos. No nosso
+                    trabalho usamos todas os atributos dados no enunciado.
+                <br>
+<br>
+</p>
+<ul style="text-align:left;">
+<li>Sala</li>
+<li>Local</li>
+<li>&Aacute;rea</li>
+<li>Mobilia</li>
+<li>Equipamento Inform&aacute;tico (Hardware)</li>
+<li>Equipamento el&eacute;trico</li>
+<li>Calend&aacute;rio da limpeza das salas</li>
+<li>Calend&aacute;rio da manuten&ccedil;&atilde;o</li>
+<li>Avarias presentes nas salas</li>
+</ul>
+</font>
+<h1 id="header4">
+<font size="6" color="#1f3d7a"><b>Linguagem</b></font>
+</h1>
+<font size="4" color="#1a1a1a"><font color="#008ae6">- Cria&ccedil;&atilde;o de um XML com as especifica&ccedil;&otilde;es de um XML Schema:</font>
+<p align="justify">
+                    Inicialmente iamos come&ccedil;ar pela cria&ccedil;&atilde;o do XML mas apercebemo-nos que a maneira mais
+                    correta seria primeiro definir o schema com as regras do nosso problema e ap&oacute;s isso
+                    passar para a resolu&ccedil;&atilde;o do XML para ser usado como base para o projeto, para efeito de
+                    teste de transforma&ccedil;&otilde;es.
+                <br>
+<br>
+                    No schema est&atilde;o definidas todas as regras de contru&ccedil;&atilde;o do nosso neg&oacute;cio de gest&atilde;o
+                    de salas do isep. Algumas das regras &eacute; por exemplo alguns dos atributos como avarias ou mobilia
+                    existir mais que 1 atributo, logo dividimos essas propriedades como listas. Por exemplo o Local e
+                    a &aacute;rea sendo atributos que n&atilde;o se iriam repetir n&atilde;o sentimos necessidade de fazer isso.
+                <br>
+<br>
+</p>
+</font>
+<h1 id="header5">
+<font size="6" color="#1f3d7a"><b>Transforma&ccedil;&otilde;es</b></font>
+</h1>
+<font size="4" color="#1a1a1a"><font color="#008ae6">- Transforma&ccedil;&otilde;es:</font>
+<p align="justify">
+                    Ap&oacute;s a realiza&ccedil;&atilde;o do Schema e do XML, partimos para as transforma&ccedil;&otilde;es.
+                <br>
+<br>
+                    Realizamos 7 transforma&ccedil;&otilde;es:
+                <br>
+<br>
+</p>
+<ul style="text-align:left;">
+<li>1&ordm; Transforma&ccedil;&atilde;o para HTML: Mostra toda a informa&ccedil;&atilde;o do xml</li>
+<li>2&ordm; Transforma&ccedil;&atilde;o para HTML: Lista todas as avarias por sala</li>
+<li>3&ordm; Transforma&ccedil;&atilde;o para HTML: Mostra os calend&aacute;rios de limpeza e manuten&ccedil;&atilde;o ordenados por data</li>
+<li>4&ordm; Transforma&ccedil;&atilde;o para TXT: Mostra toda a informa&ccedil;&atilde;o num ficheiro txt</li>
+<li>5&ordm; Transforma&ccedil;&atilde;o para TXT: Mostra a lista de equipamentos por sala</li>
+<li>6&ordm; Transforma&ccedil;&atilde;o para XML: Mostra o n&uacute;mero e a &aacute;rea das salas por ordem descendente de &aacute;rea</li>
+<li>7&ordm; Transforma&ccedil;&atilde;o para XML: Mostra a lista de equipamentos por quantidade superior a 10</li>
+</ul>
+</font>
+<h1 id="header6">
+<font size="6" color="#1f3d7a"><b>Conclus&atilde;o</b></font>
+</h1>
+<font size="4" color="#1a1a1a">
+<p align="justify">
+                Ap&oacute;s bastantes horas investidas neste projeto sentimos que os nossos conhecimentos a
+                XML, XSL, XSD evolu&iacute;ram bastante!
+            <br>
+<br>
+                Este trabalho foi nos pedido no inicio do m&ecirc;s de Maio o que nos deu bastante margem de manobra.
+                Mas claro nenhum trabalho &eacute; realmente perfeito. Sentimos algumas dificuldades na realiza&ccedil;&atilde;o das
+                transforma&ccedil;&otilde;es e podiamos ter nos organizado melhor em termos de tempo dispendido no trabalho, mas
+                apesar das adversidades realizamos um trabalho bom e as transforma&ccedil;&otilde;es est&atilde;o todas funcionais.
+            <br>
+<br>
+</p>
+</font>
+<h1 id="header7">
+<font size="6" color="#1f3d7a"><b>Refer&ecirc;ncias Bibliogr&aacute;ficas</b></font>
+</h1>
+<font size="4" color="#1a1a1a"><a href="https://moodle.isep.ipp.pt/" target="_top">https://moodle.isep.ipp.pt/</a>
+<br>Recurso mais usado para perceber a mat&eacute;ria<br>
+        Consultado em: 2018-05-24<br>
+<br>
+<a href="https://stackoverflow.com/" target="_top">https://stackoverflow.com/</a>
+<br>Todas as nossas quest&otilde;es de XML foram respondidas neste brilhante site<br>
+        Consultado em: 2018-05-05<br>
+<br>
+</font>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

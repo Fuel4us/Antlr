@@ -63,7 +63,7 @@
                     trabalho usamos todas os atributos dados no enunciado.
                 </parágrafo>
                 <listaItems>
-                    <item>Sala:</item>
+                    <item>Sala</item>
                     <item>Local</item>
                     <item>Área</item>
                     <item>Mobilia</item>
@@ -93,31 +93,17 @@
                     Após a realização do Schema e do XML, partimos para as transformações.
                 </parágrafo>
                 <parágrafo>
-                    Realizamos 6 transformações:
+                    Realizamos 7 transformações:
                 </parágrafo>
                 <listaItems>
-                    <item>1º Transformação para HTML</item>
-                    <item>2º Transformação para HTML</item>
-                    <item>3º Transformação para HTML</item>
-                    <item>4º Transformação para TXT</item>
-                    <item>5º Transformação para TXT</item>
-                    <item>6º Transformação para XML</item>
-                    <item>7º Transformação para XML</item>
+                    <item>1º Transformação para HTML: Mostra toda a informação do xml</item>
+                    <item>2º Transformação para HTML: Lista todas as avarias por sala</item>
+                    <item>3º Transformação para HTML: Mostra os calendários de limpeza e manutenção ordenados por data</item>
+                    <item>4º Transformação para TXT: Mostra toda a informação num ficheiro txt</item>
+                    <item>5º Transformação para TXT: Mostra a lista de equipamentos por sala</item>
+                    <item>6º Transformação para XML: Mostra o número e a área das salas por ordem descendente de área</item>
+                    <item>7º Transformação para XML: Mostra a lista de equipamentos por quantidade superior a 10</item>
                 </listaItems>
-                <parágrafo>1º Transformação</parágrafo>
-                <parágrafo>Mostra toda a informação do xml</parágrafo>
-                <parágrafo>2º Transformação</parágrafo>
-                <parágrafo>Lista todas as avarias por sala</parágrafo>
-                <parágrafo>3º Transformação</parágrafo>
-                <parágrafo>Mostra os calendários de limpeza e manutenção ordenados por data</parágrafo>
-                <parágrafo>4º Transformação</parágrafo>
-                <parágrafo>Mostra toda a informação num ficheiro txt</parágrafo>
-                <parágrafo>5º Transformação</parágrafo>
-                <parágrafo>Mostra a lista de equipamentos por sala</parágrafo>
-                <parágrafo>6º Transformação</parágrafo>
-                <parágrafo>Mostra o número e a área das salas por ordem descendente de área</parágrafo>
-                <parágrafo>7º Trasformação</parágrafo>
-                <parágrafo>Mostra a lista de equipamentos por quantidade superior a 10</parágrafo>
             </transformações>
         </outrasSecções>
         <conclusão tituloSecção="Conclusão" id="SEC005">

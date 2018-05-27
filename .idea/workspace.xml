@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5d7d471-10d7-4225-900a-cfd6feb479f8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lprog2018/src/projeto/XML-QuantidadeSup10.xsl" afterPath="$PROJECT_DIR$/lprog2018/src/projeto/XML-quantidadeSup10.xsl" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.html" afterPath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.html" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xml" afterPath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xml" />
+      <change beforePath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xsl" afterPath="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xsl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,55 +16,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SalasIsep.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/SalasIsep.xml">
+      <file leaf-file-name="relatorio.xsl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding>
-                <element signature="n#Sala#1;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#2;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#3;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#4;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#5;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#6;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#7;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#8;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#9;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#10;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#11;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#12;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#13;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#14;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#15;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#16;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#17;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#18;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#19;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#20;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#21;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#22;n#Departamento#0;n#!!top" expanded="false" />
-                <element signature="n#Sala#23;n#Departamento#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XML-quantidadeSup10.xsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/XML-quantidadeSup10.xsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="402">
+              <caret line="335" column="17" lean-forward="true" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TXT-listaEquipamentos.xsl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/TXT-listaEquipamentos.xsl">
+      <file leaf-file-name="relatorio.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="108" column="16" lean-forward="false" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+              <folding>
+                <element signature="n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+                <element signature="n#análise#0;n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+                <element signature="n#linguagem#0;n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+                <element signature="n#transformações#0;n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTML-total.xsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/HTML-total.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,7 +68,27 @@
       <find>table-dark</find>
       <find>bgcolor=&quot;#83CFF3&quot;</find>
       <find>footer</find>
+      <find>tema</find>
+      <find>logot</find>
+      <find>value-of</find>
+      <find>pagina</find>
+      <find>páginaRosto</find>
+      <find>linguagem</find>
+      <find>transformações</find>
+      <find>análise</find>
+      <find>transformaç</find>
+      <find>anali</find>
+      <find>conclus</find>
+      <find>referen</find>
+      <find>referênc</find>
+      <find>conclu</find>
+      <find>refWeb</find>
+      <find>&lt;p&gt;&lt;/p&gt;</find>
+      <find>conclusa</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&lt;br/&gt;&lt;br/&gt;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,10 +113,12 @@
         <option value="$PROJECT_DIR$/lprog2018/src/projeto/TXT-listaEquipamentos.xsl" />
         <option value="$PROJECT_DIR$/lprog2018/src/projeto/XML-areasDesc.xsl" />
         <option value="$PROJECT_DIR$/lprog2018/src/projeto/XML.xsl" />
+        <option value="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xml" />
+        <option value="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xsl" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -159,6 +164,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lprogxml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lprogxml" type="462c0819:PsiDirectoryNode" />
+              <item name="lprog2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Schemarelatorio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lprog2018/src/projeto/XML.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.html" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -190,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="XSLT.Trans7.xsl">
+  <component name="RunManager" selected="XSLT.relatorio.xsl">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -266,23 +278,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Trans1.xsl" type="XSLT" factoryName="XSLT" temporary="true">
-      <option name="myOutputFile" value="C:\Users\ruben\Desktop\lprogxml\lprog2018\src\projeto\TXT.txt" />
-      <option name="myOpenOutputFile" value="true" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" value="" />
-      <option name="myWorkingDirectory" value="" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <XsltFile url="file://$PROJECT_DIR$/lprog2018/src/projeto/TXT-total.xsl" />
-      <XmlFile url="file://$PROJECT_DIR$/lprog2018/src/projeto/SalasIsep.xml" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="true" />
-      <FileType name="PLAIN_TEXT" />
-      <JdkChoice value="FROM_MODULE" />
-    </configuration>
     <configuration name="Trans2.xsl" type="XSLT" factoryName="XSLT" temporary="true">
       <option name="myOutputFile" value="C:\Users\ruben\Desktop\lprogxml\lprog2018\src\projeto\HTML.html" />
       <option name="myOpenOutputFile" value="false" />
@@ -351,6 +346,23 @@
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
     </configuration>
+    <configuration name="relatorio.xsl" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" value="C:\Users\ruben\Desktop\lprogxml\lprog2018\src\Schemarelatorio\relatorio.html" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="true" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xsl" />
+      <XmlFile url="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="true" />
+      <FileType name="HTML" />
+      <JdkChoice value="FROM_MODULE" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -358,19 +370,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="XSLT.Trans1.xsl" />
-      <item index="1" class="java.lang.String" itemvalue="XSLT.Trans2.xsl" />
-      <item index="2" class="java.lang.String" itemvalue="XSLT.Trans7.xsl" />
-      <item index="3" class="java.lang.String" itemvalue="XSLT.XML.xsl" />
-      <item index="4" class="java.lang.String" itemvalue="XSLT.XML.xsl (1)" />
+      <item index="0" class="java.lang.String" itemvalue="XSLT.Trans2.xsl" />
+      <item index="1" class="java.lang.String" itemvalue="XSLT.Trans7.xsl" />
+      <item index="2" class="java.lang.String" itemvalue="XSLT.XML.xsl" />
+      <item index="3" class="java.lang.String" itemvalue="XSLT.XML.xsl (1)" />
+      <item index="4" class="java.lang.String" itemvalue="XSLT.relatorio.xsl" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="XSLT.Trans7.xsl" />
-        <item index="1" class="java.lang.String" itemvalue="XSLT.Trans2.xsl" />
-        <item index="2" class="java.lang.String" itemvalue="XSLT.XML.xsl (1)" />
-        <item index="3" class="java.lang.String" itemvalue="XSLT.XML.xsl" />
-        <item index="4" class="java.lang.String" itemvalue="XSLT.Trans1.xsl" />
+        <item index="0" class="java.lang.String" itemvalue="XSLT.relatorio.xsl" />
+        <item index="1" class="java.lang.String" itemvalue="XSLT.Trans7.xsl" />
+        <item index="2" class="java.lang.String" itemvalue="XSLT.Trans2.xsl" />
+        <item index="3" class="java.lang.String" itemvalue="XSLT.XML.xsl (1)" />
+        <item index="4" class="java.lang.String" itemvalue="XSLT.XML.xsl" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +403,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -401,17 +414,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32623318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32297447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26367614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -646,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/HTML-total.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="54" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/HTML-Calendarios.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -698,6 +703,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lprog2018/src/projeto/HTML-total.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="108" column="16" lean-forward="false" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+          <folding>
+            <element signature="n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+            <element signature="n#análise#0;n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+            <element signature="n#linguagem#0;n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+            <element signature="n#transformações#0;n#outrasSecções#0;n#corpo#0;n#relatório#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lprog2018/src/Schemarelatorio/relatorio.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="335" column="17" lean-forward="true" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
           <folding />
         </state>
       </provider>
