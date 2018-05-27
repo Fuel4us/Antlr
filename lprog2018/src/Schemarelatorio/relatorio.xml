@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="relatorio.xsl"?>
+
+<relatório id="id" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.dei.isep.ipp.pt/lprog"
+           xs:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd">
+
+    <páginaRosto>
+        <tema> Tema 5 - Gestão de Salas do ISEP </tema>
+        <disciplina>
+            <designação>Linguagens e Programação</designação>
+            <anoCurricular>2</anoCurricular>
+            <sigla>LPROG</sigla>
+        </disciplina>
+        <autor>
+            <nome>Gonçalo Fonseca</nome>
+            <número>1150503</número>
+            <mail>1150503@isep.ipp.pt</mail>
+        </autor>
+        <autor>
+            <nome>Rubén Ribeiro</nome>
+            <número>1160998</número>
+            <mail>1160998@isep.ipp.pt</mail>
+        </autor>
+        <autor>
+            <nome>Hilário Coelho</nome>
+            <número>1160557</número>
+            <mail>1160557@isep.ipp.pt</mail>
+        </autor>
+        <turma>2DB</turma>
+        <professor>PL - António Pinto da Sousa e Silva</professor>
+        <professor>TP - José Antonio Reis Tavares</professor>
+        <professor>T - Ana Maria Dias Madureira Pereira</professor>
+        <logotipoDEI>https://www2.dei.isep.ipp.pt/images/logo.png</logotipoDEI>
+        <data>2018-05-26</data>
+    </páginaRosto>
+    <corpo id="Corpo">
+        <introdução tituloSecção="Introdução" id="SEC001">
+            <parágrafo>
+                Este projeto foi realizado no âmbito da disciplina de Linguagens e Programação
+                do 2º ano da licenciatura de Engenharia Informática do ISEP.
+                Neste relatório pretendemos demonstrar os conhecimentos adquiridos ao longo do
+                semestre.
+            </parágrafo>
+            <parágrafo>
+                Vamos usar os nossos conhecimentos para desenvolver uma solução sobre o tema
+                que nos foi proposto: Gerir Salas do ISEP. Alguns dos problemas que nos surgiram
+                foram:
+            </parágrafo>
+            <listaItems>
+                <item>Manipulação de XML</item>
+                <item>Usar a sintaxe correta para ligar XML e Schemas</item>
+                <item>Criação de 30 salas sem as tornar muito iguais</item>
+                <item>Conseguir por uma transformação usando o sort a funcionar</item>
+                <item>Perceber bem a hierarquia que se pode usar no relatorio</item>
+            </listaItems>
+        </introdução>
+        <outrasSecções>
+            <análise tituloSecção="Especificação do problema" id="SEC002">
+                <parágrafo>
+                    Na resolução deste trabalho o importante era manipular bem as propriedades
+                    das salas do ISEP que por são ainda constituidas por outros atributos. No nosso
+                    trabalho usamos todas os atributos dados no enunciado.
+                </parágrafo>
+                <listaItems>
+                    <item>Sala:</item>
+                    <item>Local</item>
+                    <item>Área</item>
+                    <item>Mobilia</item>
+                    <item>Equipamento Informático (Hardware)</item>
+                    <item>Equipamento elétrico</item>
+                    <item>Calendário da limpeza das salas</item>
+                    <item>Calendário da manutenção</item>
+                    <item>Avarias presentes nas salas</item>
+                </listaItems>
+            </análise>
+            <linguagem tituloSecção="Criação de um XML com as especificações de um XML Schema" id="SEC003">
+                <parágrafo>
+                    Inicialmente iamos começar pela criação do XML mas apercebemo-nos que a maneira mais
+                    correta seria primeiro definir o schema com as regras do nosso problema e após isso
+                    passar para a resolução do XML para ser usado como base para o projeto, para efeito de
+                    teste de transformações.
+                </parágrafo>
+                <parágrafo>
+                    No schema estão definidas todas as regras de contrução do nosso negócio de gestão
+                    de salas do isep. Algumas das regras é por exemplo alguns dos atributos como avarias ou mobilia
+                    existir mais que 1 atributo, logo dividimos essas propriedades como listas. Por exemplo o Local e
+                    a área sendo atributos que não se iriam repetir não sentimos necessidade de fazer isso.
+                </parágrafo>
+            </linguagem>
+            <transformações tituloSecção="Transformações" id="SEC004">
+                <parágrafo>
+                    Após a realização do Schema e do XML, partimos para as transformações.
+                </parágrafo>
+                <parágrafo>
+                    Realizamos 6 transformações:
+                </parágrafo>
+                <listaItems>
+                    <item>1º Transformação para HTML</item>
+                    <item>2º Transformação para HTML</item>
+                    <item>3º Transformação para HTML</item>
+                    <item>4º Transformação para TXT</item>
+                    <item>5º Transformação para TXT</item>
+                    <item>6º Transformação para XML</item>
+                    <item>7º Transformação para XML</item>
+                </listaItems>
+            </transformações>
+        </outrasSecções>
+        <conclusão tituloSecção="Conclusão" id="SEC005">
+            <parágrafo>
+                Após bastantes horas investidas neste projeto sentimos que os nossos conhecimentos a
+                XML, XSL, XSD evoluíram bastante!
+            </parágrafo>
+            <parágrafo>
+                Este trabalho foi nos pedido no inicio do mês de Maio o que nos deu bastante margem de manobra.
+                Mas claro nenhum trabalho é realmente perfeito. Sentimos algumas dificuldades na realização das
+                transformações e podiamos ter nos organizado melhor em termos de tempo dispendido no trabalho, mas
+                apesar das adversidades realizamos um trabalho bom e as transformações estão todas funcionais.
+            </parágrafo>
+        </conclusão>
+        <referências tituloSecção="Referencia" id="SEC006">
+            <refWeb idRef="RefW_07">
+                <URL>https://moodle.isep.ipp.pt/</URL>
+                <descrição>Recurso mais usado para perceber a matéria</descrição>
+                <consultadoEm>2018-05-24</consultadoEm>
+            </refWeb>
+        </referências>
+    </corpo>
+</relatório>
+
+
